@@ -1,0 +1,84 @@
+
+body{
+    background-image: url(/assets/Space-background.jpg);
+    background-color: #000;
+    &{
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        @media only screen and (max-width: 768px) {
+            background-attachment:unset;
+        }
+    }
+.header{
+    display: flex;
+    background-color: #fff;
+    text-align: center;
+    flex-direction: column;
+    max-width: 900px;
+   margin: auto;
+    div{
+        width: 100%;
+        padding-top: 40px;
+
+        h1{
+            color: #000;
+            font-family: 'Syne Mono', monospace;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        h5{
+            font-family: 'Sono', sans-serif;
+            font-style: italic;
+        }
+      
+    }
+}
+}
+
+.container2{
+   padding-top: 45px;
+    background-color: #fff;
+    max-width: 900px!important;
+    height: auto;
+    margin: auto;
+    .card2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #f1f1f1;
+        height: 100%;
+        text-align: justify;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 60px;
+        
+        h3{
+            color: #1a1a1a;
+            font-family: 'Sono', sans-serif;
+            font-weight: 500;
+            padding-bottom: 30px;
+        }
+
+        #titulo{
+            
+            color: #3C5D87;
+            font-family: 'Syne Mono', monospace;
+          
+        }
+        p{
+            color: #1a1a1a;
+            font-size: 16px;
+            font-family: 'Sono', sans-serif;
+        }
+        img{
+            width:100%;
+            height: auto;
+            margin: auto;
+            padding-top: 30px;
+            padding-bottom:30px;
+        }
+    }
+}
